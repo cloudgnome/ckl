@@ -1,0 +1,55 @@
+{%extends extends%}
+{%block main%}
+{% load mptt_tags %}
+{%load translate%}
+<div id="categories" class="container">
+    <ul>
+    {% recursetree items %}
+        <li>
+            {%if not node.is_child_node%}
+                {%if node.is_leaf_node%}
+                    <a class="leaf load" href="/edit/category/{{node.id}}" view="category" item-id="{{node.id}}">{% translate node 'names' 'ru'%}</a>
+                {%else%}
+                    <div class="parent-arrow"><i class="fas fa-chevron-right"></i></div>
+                    <a class="icon parent drag_handle load" href="/edit/category/{{node.id}}" view="category" item-id="{{node.id}}">{% translate node 'names' 'ru'%}
+                    </a>
+                    <ul class="sub">
+                        {{children}}
+                    </ul>
+                {%endif%}
+            {%else%}
+                {%if not node.is_leaf_node%}
+                    <div class="parent-arrow"><i class="fas fa-chevron-right"></i></div>
+                {%endif%}
+                <a {%if not node.is_leaf_node%}class="icon parent load"{%else%}class="load"{%endif%} href="/edit/category/{{node.id}}" view="category" item-id="{{node.id}}">
+                    {% translate node 'names' 'ru'%}
+                </a>
+                {%if not node.is_leaf_node%}
+                    <ul class="sub">
+                        {{children}}
+                    </ul>
+                {%endif%}
+            {%endif%}
+        </li>
+    {% endrecursetree %}
+    </ul>
+</div>
+    </div>
+    <div id="panel-wrapper" model="{{model}}">
+        <div id="toggle-panel">
+            <i class="fas fa-hamburger"></i>
+        </div>
+        <div id="search">
+            <input type="text" id="search-text" placeholder='Поиск' model="{{model}}" value="{{value}}">
+        </div>
+        {%include panel%}
+        <div id="panel-shortcuts" class="active">
+            <a class="button load" href="/add/{{model}}" view="{{model}}"><i class="fas fa-plus"></i></a>
+            <svg id="delete" class="delete-list" model="{{model}}" fill="#aaa" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0V0z" fill="none"/>
+                <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+        </div>
+    </div>
+{%endblock%}

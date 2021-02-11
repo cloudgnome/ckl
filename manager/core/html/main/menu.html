@@ -1,0 +1,91 @@
+<menu class="noselect" id="nav">
+    <div id="top">
+        <div class="burger">
+            <i class="fas fa-hamburger"></i>
+        </div>
+        <a href="http://{{SITE_URL}}/" id="shop">
+            <svg><use xlink:href="#logo-default"></use></svg>
+        </a>
+    </div>
+    <div id="menu-title">
+        <div id="prev">
+            <i class="fas fa-chevron-left"></i>
+            <div id="menu-title-text"></div>
+        </div>
+    </div>
+    <div id="menu">
+        <a href="/add/order" class="load" view="Order">
+            <i class="fas fa-cart-plus"></i>
+            Добавить заказ
+        </a>
+        <a href="/order/list" class="load" view="ListOrder" model="Order">
+            <i class="fas fa-shopping-cart"></i>
+            Заказы
+        </a>
+        <div class="parent branch">
+            <i class="fab fa-product-hunt"></i>
+            <span>Товары</span>
+            <div class="sub">
+                <a href="/product/list" class="load" view="ListProduct" model="Product">Все</a>
+                <a href="/storage/list" class="load" view="List" model="Storage">Новые товары</a>
+                <a href="/tigres/list" class="load" view="List" model="Tigres">Тигрес</a>
+                <a href="/popular/list" class="load" view="List" model="Popular">Популярные</a>
+                <a href="/offer/list" class="load" view="List" model="Offer">Рекомендуемые</a>
+                <a href="/special/list" class="load" view="List" model="Special">Акции</a>
+                <a href="/beles/list" class="load" view="List" model="Beles">Велис</a>
+                <a href="/attribute/list" class="load" view="List" model="Attribute">Атрибуты</a>
+                <a href="/tag/list" class="load" view="List" model="Tag">Теги</a>
+                <a href="/featured/list" class="load" view="List" model="Featured">Наборы</a>
+                <a href="/load/list" class="load" view="Load" model="Load">Выгрузка</a>
+                <a href="/noLoad/list" class="load" view="NoLoad" model="NoLoad">НеВыгрузка</a>
+                <a href="/brand/list" class="load" view="List" model="brand">Производители</a>
+            </div>
+        </div>
+        {%if TIGRES_CATEGORIES%}
+            <div class="parent menu-link branch">
+                <i class="fa fa-list-alt"></i>
+                <span>Категории</span>
+                <div class="sub">
+                    <a href="/category/list" view="CategoryList" model="Category" class="load">Игротека</a>
+                    <!-- <a href="/beles/category/list" view="CategoryList" model="Beles_Category" class="load">Велис</a> -->
+                    <a href="/tigresCategory/list" view="List" model="TigresCategory" class="load">Тигрес</a>
+                </div>
+            </div>
+        {%else%}
+            <a href="/category/list" view="CategoryList" model="Category" class="load">
+                <i class="fa fa-list-alt"></i>
+                Категории
+            </a>
+        {%endif%}
+        <div class="parent branch">
+            <i class="fas fa-store-alt"></i>
+            <span>Магазин</span>
+            <div class="sub">
+                <a href="/meta/list" class="load" view="List" model="Meta">Meta</a>
+                <a href="/article/list" class="load" view="List" model="Article">Статьи</a>
+                <a href="/slider/list" class="load" view="List" model="Slider">Слайдер</a>
+                <a href="/page/list" class="load" view="List" model="Page">Простые страницы</a>
+                <a href="/city/list" class="load" view="List" model="City">Город</a>
+                <a href="/review/list" class="load" view="List" model="Review">Отзывы</a>
+                <a href="/robots/list" class="load" view="List" model="Robots">robots.txt</a>
+                <a href="/prom/list" class="load" view="List" model="Prom">prom.ua</a>
+                <a href="/slug/list" class="load" view="List" model="Slug">Ссылки</a>
+                <a href="/redirect/list" class="load" view="List" model="Redirect">Переадресации</a>
+                <a href="/language/list" class="load" view="List" model="Language">Языки</a>
+                <a href="/percent/list" class="load" view="List" model="Percent">Наценка</a>
+                <a href="/sms/list" class="load" view="List" model="Sms">SMS</a>
+                <a href="/settings/list" class="load" view="List" model="Settings">Настройки</a>
+                <a href="/currency/list" class="load" view="List" model="Currency">Валюта</a>
+            </div>
+        </div>
+        <a href="/User/list" class="load" view="List" model="User">
+            <i class="fas fa-users"></i>
+            Пользователи
+        </a>
+        <a href="/" id="home-link" class="load" view="Home" model="Home">
+            <i class="fas fa-home"></i>
+             Настройки
+        </a>
+        <!-- <a href="/site/list" class="load" view="List" model="Site">Сайты</a> -->
+    </div>
+</menu>

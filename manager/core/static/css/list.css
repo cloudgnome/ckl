@@ -1,0 +1,448 @@
+#reload{
+	padding-bottom: 50px;
+}
+#list-all{
+	font-size: 14px;
+	margin-left: 12px;
+}
+#head,#items-search{
+	display: grid;
+	text-align: center;
+	margin-bottom: 9px;
+	grid-column-gap: 10px;
+	font-weight: bold;
+}
+#items-search{
+	margin-left: 20px;
+}
+#items-search .search-text{
+	background-color: rgba(200,200,200,0.15);
+    padding: 6px 10px;
+	border-radius: 3px;
+	position: relative;
+}
+#items-search .clear-search{
+	width: 14px;
+	position: absolute;
+	right: 11px;
+	top: 7px;
+	background-color: #EFEFEF;
+	color: #5C5C5C;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	cursor: pointer;
+	display: none;
+}
+#items-search .search-text input{
+	width: 100%;
+	height: 32px;
+	text-align: center;
+	font-size: 15px;
+}
+#items-search ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 12px;
+}
+#items-search ::-moz-placeholder { /* Firefox 19+ */
+  font-size: 12px;
+}
+#items-search :-ms-input-placeholder { /* IE 10+ */
+  font-size: 12px;
+}
+#items-search :-moz-placeholder { /* Firefox 18- */
+  font-size: 12px;
+}
+#list-Product #head,#list-Product #items-search {
+	grid-template-columns: 0px 100px 2fr 90px 1fr 116px 50px minmax(125px,150px) minmax(30px,130px);
+}
+#list-Storage #head,#list-Storage #items-search {
+	grid-template-columns: 0px 100px 370px 116px 50px;
+}
+#list-Slug #head,#list-Slug #items-search {
+	grid-template-columns: 0px 100px 1fr 100px 100px;
+}
+#list-GoogleFeed #head,#list-GoogleFeed #items-search{
+	grid-template-columns: 0px 100px 3fr 1fr 1fr 116px 50px minmax(125px,150px) minmax(30px,130px);
+}
+#list-Percent #head,#list-Percent #items-search {
+	grid-template-columns: 0px 100px 1fr 1fr 1fr;
+}
+#list-Tigres #head,#list-Tigres #items-search {
+	grid-template-columns: 0px 100px 1fr 1fr 116px;
+}
+#list-TigresCategory #head,#list-TigresCategory #items-search {
+	grid-template-columns: 0px 100px 1fr 1fr;
+}
+#list-Sms #head,#list-Sms #items-search {
+	grid-template-columns: 0px 100px 1fr 1fr;
+}
+#list-Currency #head,#list-Currency #items-search {
+	grid-template-columns: 0px 100px 1fr 1fr;
+}
+#list-Site #head,#list-Site #items-search {
+	grid-template-columns: 0px 100px 1fr 1fr;
+}
+#list-Load #head,#list-Load #items-search {
+	grid-template-columns: 0px 100px 1fr;
+}
+#list-NoLoad #head,#list-Load #items-search {
+	grid-template-columns: 0px 100px 1fr;
+}
+#list-Meta #head,#list-Meta #items-search {
+	grid-template-columns: 0px 100px 1fr 1fr 1fr;
+}
+#list-Settings #head,#list-Settings #items-search {
+	grid-template-columns: 0px 100px 1fr 100px;
+}
+#list-Redirect #head,#list-Redirect #items-search {
+	grid-template-columns: 0px 100px 1fr 1fr;
+}
+#list-Order #head,#list-Order #items-search {
+	grid-template-columns: 0px minmax(80px,100px) 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#list-Special #head,#list-Special #items-search {
+	grid-template-columns: 0px 140px 420px 85px;
+}
+#list-Featured #head,#list-Featured #items-search {
+	grid-template-columns: 0px 140px 420px;
+}
+#list-Offer #head,#list-Offer #items-search {
+	grid-template-columns: 0px 100px 420px 85px;
+}
+#list-Popular #head,#list-Popular #items-search {
+	grid-template-columns: 0px 100px 420px 85px;
+}
+#list-Brand #head,#list-Brand #items-search {
+	grid-template-columns: 0px 100px 320px 140px;
+}
+#list-Robots #head,#list-Robots #items-search {
+	grid-template-columns: 0px 100px 320px 50px;
+}
+#list-Article #head,#list-Article #items-search {
+	grid-template-columns: 0px 100px 420px;
+}
+#list-Slider #head,#list-Slider #items-search {
+	grid-template-columns: 0px 60px 1fr 2fr 170px;
+}
+#list-Language #head,#list-Language #items-search {
+	grid-template-columns: 0px 100px 420px 100px 80px;
+}
+#list-Page #head,#list-Page #items-search {
+	grid-template-columns: 0px 100px 420px;
+}
+#list-City #head,#list-City #items-search {
+	grid-template-columns: 0px 100px 420px;
+}
+#list-Attribute #head,#list-Attribute #items-search {
+	grid-template-columns: 0px 100px 420px;
+}
+#list-Tag #head,#list-Tag #items-search {
+	grid-template-columns: 0px 100px 420px;
+}
+#list-Review #head,#list-Review #items-search {
+	grid-template-columns: 0px 60px minmax(200px,300px) 1fr 150px 50px;
+}
+#list-Prom #head,#list-Prom #items-search {
+	grid-template-columns: 0px 60px 1fr 1fr 1fr 150px 50px;
+}
+#list-Beles #head,#list-Beles #items-search {
+	grid-template-columns: 0px 100px 2fr 85px 1fr 150px 1fr 50px;
+}
+#list-User #head,#list-User #items-search {
+	grid-template-columns: 0px 100px 1fr 1fr 1fr 250px 180px 50px;
+}
+#items {
+	display: grid;
+	grid-row-gap: 9px;
+}
+#items .item{
+	text-align: center;
+	line-height: 50px;
+	display: grid;
+	grid-template-rows: 50px;
+	grid-gap: 10px;
+	overflow: hidden;
+}
+#list-Product .item {
+	grid-template-columns: 20px 100px 2fr 90px 1fr 116px 50px minmax(125px,150px) minmax(50px,130px);
+}
+#list-Order .item {
+	grid-template-columns: 20px minmax(80px,100px) 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#list-Storage .item {
+	grid-template-columns: 20px 100px 370px 116px 50px;
+}
+#list-Slug .item {
+	grid-template-columns: 20px 100px 1fr 100px 100px;
+}
+#list-Percent .item {
+	grid-template-columns: 20px 100px 1fr 1fr 1fr;
+}
+#list-Settings .item {
+	grid-template-columns: 20px 100px 1fr 100px;
+}
+#list-GoogleFeed .item {
+	grid-template-columns: 20px 100px 3fr 1fr 1fr 116px 50px minmax(125px,150px) minmax(50px,130px);
+}
+#list-Load .item {
+	grid-template-columns: 20px 100px 1fr;
+}
+#list-NoLoad .item {
+	grid-template-columns: 20px 100px 1fr;
+}
+#list-Sms .item {
+	grid-template-columns: 20px 100px 1fr 1fr;
+}
+#list-Currency .item {
+	grid-template-columns: 20px 100px 1fr 1fr;
+}
+#list-Site .item {
+	grid-template-columns: 20px 100px 1fr 1fr;
+}
+#list-Meta .item {
+	grid-template-columns: 20px 100px 1fr 1fr 1fr;
+}
+#list-Redirect .item {
+	grid-template-columns: 20px 100px 1fr 1fr;
+}
+#list-Tigres .item {
+	grid-template-columns: 20px 100px 1fr 1fr 116px;
+}
+#list-TigresCategory .item {
+	grid-template-columns: 20px 100px 1fr 1fr;
+}
+#list-Special .item {
+	grid-template-columns: 20px 140px 420px 85px;
+}
+#list-Featured .item {
+	grid-template-columns: 20px 140px 420px;
+}
+#list-Offer .item {
+	grid-template-columns: 20px 100px 420px 85px;
+}
+#list-Popular .item {
+	grid-template-columns: 20px 100px 420px 85px;
+}
+#list-Brand .item {
+	grid-template-columns: 20px 100px 320px 140px;
+}
+#list-Robots .item {
+	grid-template-columns: 20px 100px 320px 50px;
+}
+#list-Article .item {
+	grid-template-columns: 20px 100px 420px;
+}
+#list-Attribute .item {
+	grid-template-columns: 20px 100px 420px;
+}
+#list-Tag .item {
+	grid-template-columns: 20px 100px 420px;
+}
+#list-Slider .item {
+	grid-template-columns: 20px 60px 1fr 2fr 170px;
+	grid-template-rows: 80px;
+	line-height: 39px;
+}
+#list-City .item {
+	grid-template-columns: 20px 100px 420px;
+}
+#list-Page .item {
+	grid-template-columns: 20px 100px 420px;
+}
+#list-Language .item {
+	grid-template-columns: 20px 100px 420px 100px 80px;
+}
+#list-Review .item {
+	grid-template-columns: 20px 60px minmax(200px,300px) 1fr 150px 50px;
+}
+#list-Prom .item {
+	grid-template-columns: 20px 60px 1fr 1fr 1fr 150px 50px;
+}
+#list-Beles .item {
+	grid-template-columns: 20px 100px 2fr 85px 1fr 150px 1fr 50px;
+}
+#list-User .item {
+	grid-template-columns: 20px 100px 1fr 1fr 1fr 250px 180px 50px;
+}
+.item * {
+	border-radius: 3px;
+	background-color: #fff;
+}
+#items .item .bool{
+	width: 15px;
+	height: 15px;
+	border-radius: 11px;
+	border: none;
+	margin: 17px auto;
+	cursor: pointer;
+}
+#items .item .true{
+	background-color: #7cb342;
+}
+#items .item .false{
+	background-color: #ddd;
+}
+#items .item img{
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+.column {
+	padding: 0 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-word;
+}
+/*#search {
+	width: 240px;
+	height: 35px;
+	font-size: 16px;
+	padding-left: 5px;
+	margin-bottom: 18px;
+}*/
+.step-links * {
+	background-color: #fff;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 40px;
+	width: 42px;
+	height: 40px;
+	display: block;
+	float: left;
+	margin-right: 7px;
+}
+#pagination .nextPage,#pagination .prevPage {
+	width: 78px;
+}
+#pagination {
+	min-width: 425px;
+	height: 40px;
+	margin: 10px 0 15px;
+	position: fixed;
+	bottom: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 100%;
+}
+#pagination .pagi-info{
+	background-color: #fff;
+	padding: 0 4% 0%;
+	line-height: 39px;
+	border-radius: 3px;
+	margin-right: auto;
+}
+.search-count{
+	margin-left: 18px;
+	color: #999999;
+	font-size: 14px;
+}
+#filter{
+	width: 100%;
+}
+#edit-filter svg{
+	height: 45px;
+	width: 45px;
+	margin-top: 8px;
+	cursor: pointer;
+}
+#filter svg{
+	height: 45px;
+	width: 45px;
+	margin-top: 8px;
+	cursor: pointer;
+}
+#filters{
+	padding: 10px 15px 25px;
+}
+#filters > *{
+	margin-bottom: 7px;
+}
+#edit-filters{
+	display: none;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	position: absolute;
+	background-color: #fff;
+	padding: 10px 15px 25px;
+	bottom: 58px;
+	right: 236px;
+	width: 632px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
+	min-height: 150px;
+}
+#tracking #result{
+	display: none;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	position: absolute;
+	background-color: #fff;
+	bottom: 50px;
+	right: 66px;
+	width: 632px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
+	min-height: 150px;
+}
+#tracking #result{
+	left: -351px;
+	top: -180px;
+	height: 180px;
+	max-height: 180px;
+	overflow-y: scroll;
+	z-index: 1;
+}
+#edit-filters::after,#ua-form::after,#tracking #result:after{
+	display: block;
+	content: " ";
+	border-left: 11px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 8px solid white;
+	position: absolute;
+	bottom: -5px;
+	right: 188px;
+}
+#tracking #result:after{
+	right: 154px;
+}
+.filters input{
+	width: 100%;
+	height: 45px;
+	font-size: 16px;
+	padding-left: 7px;
+}
+.filters select {
+	background: transparent;
+	width: 100%;
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	height: 45px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: relative;
+	padding-right: 29px;
+}
+.filters .select{
+	position: relative;
+	z-index: 0;
+	display: flex;
+}
+#check-all {
+    float: left;
+}
+#add,#tracking button,#track{
+	margin-top: 10px;
+}
+#tracking button,#track{
+	background-color: #644765;
+}
+#tracking button:hover,#track:hover{
+	background-color: #593C5A;
+}
+#slider-pReview{
+	max-width: 153px !important;
+}

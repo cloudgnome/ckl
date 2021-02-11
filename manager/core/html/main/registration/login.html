@@ -1,0 +1,22 @@
+{%extends extends%}
+{%block body%}
+	<div id="login-form-wrap">
+		<div></div>
+		<form id="login-form" onsubmit="return false;" action="javascript: void(0)">
+			{%csrf_token%}
+			{{form.phone.label_tag}}
+			<div class="input">
+				{{form.phone}}
+				{{form.phone.errors}}
+			</div>
+			{{form.password.label_tag}}
+			<div class="input">
+				{{form.password}}
+				{{form.password.errors}}
+			</div>
+			{{form.non_field_errors}}
+			<button id="login">Да</button>
+		</form>
+		<div></div>
+	</div>
+{%endblock%}

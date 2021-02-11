@@ -1,0 +1,924 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <icloudgnome@gmail.com>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-05 16:49+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: html/blog/desktop/article.html:5 html/blog/mobile/article.html:6
+#: html/blog/mobile/article.html:23 html/catalog/desktop/brands.html:6
+#: html/catalog/desktop/category.html:8 html/catalog/desktop/pricelist.html:6
+#: html/catalog/desktop/product.html:27 html/catalog/desktop/products.html:8
+#: html/catalog/mobile/category.html:19 html/catalog/mobile/product.html:16
+#: html/catalog/mobile/products.html:16 html/catalog/mobile/search.html:17
+#: html/checkout/desktop/checkout.html:8 html/checkout/mobile/checkout.html:8
+#: html/shop/desktop/guestbook.html:6 html/shop/desktop/page.html:7
+#: html/shop/mobile/guestbook.html:6 html/shop/mobile/nav.html:28
+#: html/shop/mobile/page.html:6 html/user/desktop/change-password.html:5
+#: html/user/desktop/order.html:9 html/user/desktop/profile.html:8
+#: html/user/mobile/change-password.html:5 html/user/mobile/profile.html:8
+msgid "Главная"
+msgstr "Головна"
+
+#: html/blog/desktop/article.html:7 html/blog/desktop/article.html:10
+#: html/blog/mobile/article.html:15 html/blog/mobile/article.html:26
+msgid "Полезные статьи"
+msgstr "Корисні статті"
+
+#: html/blog/desktop/article.html:24 html/blog/mobile/article.html:42
+msgid "ПОЛЕЗНЫЕ СТАТЬИ"
+msgstr "КОРИСНІ СТАТТІ"
+
+#: html/cart/desktop/cart.html:8 html/cart/desktop/cart.html:49
+msgid "ПРОДОЛЖИТЬ"
+msgstr "ПРОДОВЖИТЬ"
+
+#: html/cart/desktop/cart.html:8 html/cart/desktop/cart.html:49
+msgid "ПОКУПКИ"
+msgstr "ПОКУПКІ"
+
+#: html/cart/desktop/cart.html:9 html/cart/desktop/cart.html:50
+msgid "ОЧИСТИТЬ КОРЗИНУ"
+msgstr "ОЧИСТИТЬ КОШИК"
+
+#: html/cart/desktop/cart.html:11 html/cart/desktop/cart.html:52
+#: html/cart/mobile/cart.html:8 html/cart/mobile/cart.html:39
+msgid "ОФОРМИТЬ ЗАКАЗ"
+msgstr "ОФОРМІТЬ ЗАМОВЛЕННЯ"
+
+#: html/cart/desktop/cart.html:45 html/cart/mobile/cart.html:33
+#: html/user/desktop/profile.html:19 html/user/mobile/profile.html:29
+msgid "Общая сумма"
+msgstr "Обща сума"
+
+#: html/cart/mobile/cart.html:21 html/catalog/desktop/product.html:204
+#: html/catalog/desktop/quick_view.html:49 html/catalog/mobile/product.html:83
+#: html/checkout/mobile/checkout.html:83 html/user/mobile/order.html:92
+msgid "Артикул"
+msgstr "Артікул"
+
+#: html/catalog/desktop/aside.html:53 html/shop/desktop/header.html:35
+#: html/shop/desktop/nav.html:4 html/shop/mobile/nav.html:39
+msgid "Категории товаров"
+msgstr "Категорії товарів"
+
+#: html/catalog/desktop/aside.html:68 html/catalog/mobile/products.html:95
+#: html/catalog/mobile/search.html:96
+msgid "Сортировка"
+msgstr "Сортування"
+
+#: html/catalog/desktop/aside.html:71 html/catalog/mobile/products.html:99
+#: html/catalog/mobile/search.html:100
+msgid "по цене"
+msgstr "за ціной"
+
+#: html/catalog/desktop/aside.html:72 html/catalog/mobile/products.html:100
+#: html/catalog/mobile/search.html:101
+msgid "от дешевых к дорогим"
+msgstr "від дешевих к дорожчим"
+
+#: html/catalog/desktop/aside.html:73 html/catalog/mobile/products.html:101
+#: html/catalog/mobile/search.html:102
+msgid "от дорогих к дешевым"
+msgstr "від дорожчих до дешевих"
+
+#: html/catalog/desktop/aside.html:79
+msgid "по складу"
+msgstr "за складом"
+
+#: html/catalog/desktop/aside.html:80 html/catalog/mobile/products.html:106
+#: html/catalog/mobile/search.html:107
+msgid "в наличии"
+msgstr "в наявності"
+
+#: html/catalog/desktop/aside.html:81 html/catalog/mobile/products.html:107
+#: html/catalog/mobile/search.html:108
+msgid "под заказ"
+msgstr "під замовлення"
+
+#: html/catalog/desktop/aside.html:86 html/catalog/mobile/product.html:56
+#: html/catalog/mobile/products.html:30 html/catalog/mobile/search.html:31
+msgid "Цена"
+msgstr "Ціна"
+
+#: html/catalog/desktop/aside.html:100
+msgid "Не выбрано"
+msgstr "Не обрано"
+
+#: html/catalog/desktop/aside.html:112
+msgid "Категории"
+msgstr "Категорії товарів"
+
+#: html/catalog/desktop/aside.html:127
+msgid "Производители"
+msgstr "Виробники"
+
+#: html/catalog/desktop/aside.html:138 html/catalog/desktop/pricelist.html:31
+#: html/catalog/mobile/products.html:93 html/catalog/mobile/products.html:110
+#: html/catalog/mobile/search.html:94 html/catalog/mobile/search.html:111
+msgid "Применить"
+msgstr "Пріменіть"
+
+#: html/catalog/desktop/brands.html:7
+msgid "Бренды и производители"
+msgstr "Виробники та бренди"
+
+#: html/catalog/desktop/category.html:57 html/catalog/desktop/more.html:19
+#: html/catalog/desktop/product.html:163 html/catalog/desktop/products.html:56
+#: html/shop/desktop/home.html:19 html/shop/desktop/home.html:65
+#: html/shop/desktop/home.html:108 html/shop/desktop/page.html:26
+#: html/user/desktop/favorite.html:20
+msgid "Купить"
+msgstr "Придбати"
+
+#: html/catalog/desktop/category.html:75 html/catalog/desktop/more.html:41
+#: html/catalog/desktop/products.html:78 html/shop/desktop/home.html:38
+#: html/shop/desktop/home.html:80 html/shop/desktop/home.html:127
+#: html/shop/desktop/page.html:47 html/user/desktop/favorite.html:39
+msgid "Брэнд"
+msgstr "Бренд"
+
+#: html/catalog/desktop/category.html:77 html/catalog/desktop/more.html:43
+#: html/catalog/desktop/product.html:195 html/catalog/desktop/products.html:80
+#: html/catalog/mobile/product.html:78 html/shop/desktop/home.html:40
+#: html/shop/desktop/home.html:82 html/shop/desktop/home.html:129
+#: html/shop/desktop/page.html:49 html/user/desktop/favorite.html:41
+msgid "Страна"
+msgstr "Країна"
+
+#: html/catalog/desktop/category.html:81 html/catalog/desktop/more.html:47
+#: html/catalog/desktop/products.html:84 html/shop/desktop/home.html:44
+#: html/shop/desktop/home.html:86 html/shop/desktop/home.html:133
+#: html/shop/desktop/page.html:53 html/user/desktop/favorite.html:45
+msgid "Параметры"
+msgstr "Параметри"
+
+#: html/catalog/desktop/feedback.html:12 html/catalog/desktop/product.html:253
+#: html/catalog/mobile/product.html:185 html/checkout/desktop/callback.html:20
+#: html/checkout/desktop/quick_order.html:19
+msgid "Отправить"
+msgstr "Відправить"
+
+#: html/catalog/desktop/more.html:5 html/catalog/desktop/products.html:42
+#: html/user/desktop/favorite.html:5
+msgid "Код"
+msgstr ""
+
+#: html/catalog/desktop/pricelist.html:7
+msgid "Прайслист"
+msgstr "Прайсліст"
+
+#: html/catalog/desktop/pricelist.html:14
+msgid "ФИЛЬТР"
+msgstr "ФІЛЬТР"
+
+#: html/catalog/desktop/pricelist.html:21 html/catalog/mobile/products.html:60
+#: html/catalog/mobile/search.html:61
+msgid "ПРОИЗВОДИТЕЛИ"
+msgstr "ВИРОБНИКИ"
+
+#: html/catalog/desktop/product.html:64
+msgid "Вместе с этим товаром покупают"
+msgstr "З цим товаром покупають"
+
+#: html/catalog/desktop/product.html:93 html/catalog/mobile/product.html:125
+msgid "Похожие товары"
+msgstr "Схожі товари"
+
+#: html/catalog/desktop/product.html:169
+#: html/catalog/desktop/quick_view.html:46
+msgid "Заказ в один клик"
+msgstr "Замовлення в один клік"
+
+#: html/catalog/desktop/product.html:172
+msgid "Перезвоните"
+msgstr "Передзвоніть"
+
+#: html/catalog/desktop/product.html:180
+#: html/catalog/desktop/quick_view.html:35
+msgid "(условия)"
+msgstr "(умови)"
+
+#: html/catalog/desktop/product.html:186
+#: html/catalog/desktop/quick_view.html:58 html/catalog/mobile/product.html:75
+msgid "Производитель"
+msgstr "Виробник"
+
+#: html/catalog/desktop/product.html:216
+msgid "ОПИСАНИЕ"
+msgstr "ОПИС"
+
+#: html/catalog/desktop/product.html:229 html/catalog/mobile/product.html:162
+msgid "ОТЗЫВЫ"
+msgstr "ВІДГУКИ"
+
+#: html/catalog/desktop/product.html:277
+msgid "ДОСТАВКА"
+msgstr ""
+
+#: html/catalog/desktop/product.html:280
+msgid "Самовывоз"
+msgstr "Самовивіз"
+
+#: html/catalog/desktop/product.html:280
+msgid "Харьков,Тюринская"
+msgstr "Харків, Тюрінська"
+
+#: html/catalog/desktop/product.html:281
+msgid "Новой Почтой"
+msgstr "Новою Поштою"
+
+#: html/catalog/desktop/product.html:282
+msgid "Деливери"
+msgstr "Делівері"
+
+#: html/catalog/desktop/product.html:283
+msgid "УкрПочта"
+msgstr "УкрПошта"
+
+#: html/catalog/desktop/product.html:284
+msgid "Срок доставки"
+msgstr "Термін доставки"
+
+#: html/catalog/desktop/product.html:284
+msgid "дня"
+msgstr "дні"
+
+#: html/catalog/desktop/product.html:285
+msgid "Курьерская доставка по Харькову"
+msgstr "Кур'єрська доставка по Харківу"
+
+#: html/catalog/desktop/product.html:285 html/catalog/mobile/products.html:34
+#: html/catalog/mobile/search.html:35 html/shop/mobile/index.html:80
+#: html/shop/mobile/index.html:84 html/shop/mobile/index.html:88
+msgid "от"
+msgstr "від"
+
+#: html/catalog/desktop/product.html:287
+msgid "Отправки перевозчиками осуществляются ежедневно, кроме выходных"
+msgstr "Відправки перевізникам здійснюється щоденно, окрім вихідних."
+
+#: html/catalog/desktop/product.html:292
+msgid "ОПЛАТА"
+msgstr "СПЛАТА"
+
+#: html/catalog/desktop/product.html:295
+msgid "Наличными при получении заказа"
+msgstr "Налічними при отриманні замовлення"
+
+#: html/catalog/desktop/product.html:295
+msgid "только Новой Почтой"
+msgstr "тільки Новою Поштою"
+
+#: html/catalog/desktop/product.html:296 html/shop/mobile/index.html:101
+msgid "Безналичная оплата"
+msgstr "Безналічна сплата"
+
+#: html/catalog/desktop/product.html:297
+msgid "Оплата платежной картой"
+msgstr "Оплата платіжною карткою"
+
+#: html/catalog/desktop/product.html:298 html/shop/mobile/index.html:103
+msgid "Наличными в магазине"
+msgstr "Налічними в магазині"
+
+#: html/catalog/desktop/product.html:304
+msgid "ОБМЕН/ ВОЗВРАТ"
+msgstr "ОБМІН/ ПОВЕРНЕННЯ"
+
+#: html/catalog/desktop/product.html:307 html/shop/mobile/index.html:112
+msgid ""
+"Обмен и возврат товара осуществляется в течении 14 дней после покупки, "
+"согласно закону Украины “О защите прав потребителей Украины”"
+msgstr ""
+"Обмін чи повернення товару здійснюється на протязі 14 днів після покупки, "
+"згідно із законом України Про захист прав спроживачив України"
+
+#: html/catalog/desktop/products.html:101
+#: html/catalog/mobile/products.html:148 html/catalog/mobile/search.html:147
+#: html/shop/desktop/guestbook.html:48 html/shop/mobile/guestbook.html:48
+msgid "Предыдущие"
+msgstr "Попередні"
+
+#: html/catalog/desktop/products.html:113
+#: html/catalog/mobile/products.html:160 html/catalog/mobile/search.html:159
+#: html/shop/desktop/guestbook.html:58 html/shop/mobile/guestbook.html:58
+msgid "следующие"
+msgstr "наступні"
+
+#: html/catalog/desktop/quick_view.html:39
+msgid "Количество"
+msgstr "Кількість"
+
+#: html/catalog/desktop/quick_view.html:45
+msgid "В корзину"
+msgstr "В кошик"
+
+#: html/catalog/desktop/quick_view.html:53
+msgid "Страна производитель"
+msgstr "Країна виробника"
+
+#: html/catalog/desktop/quick_view.html:63 html/catalog/mobile/product.html:81
+msgid "Размеры"
+msgstr "Розмір"
+
+#: html/catalog/desktop/quick_view.html:67
+msgid "Категория"
+msgstr "Категорія"
+
+#: html/catalog/desktop/sidebar_products.html:2
+msgid "Популярные"
+msgstr "Популярнi"
+
+#: html/catalog/desktop/sidebar_products.html:20
+#: html/shop/desktop/home.html:94 html/shop/mobile/home.html:69
+msgid "Новинки"
+msgstr "Новинки"
+
+#: html/catalog/mobile/more.html:17 html/catalog/mobile/product.html:92
+#: html/catalog/mobile/products.html:129 html/catalog/mobile/search.html:129
+#: html/shop/mobile/home.html:17 html/shop/mobile/home.html:49
+#: html/shop/mobile/home.html:81
+msgid "КУПИТЬ"
+msgstr "ПРИДБАТИ"
+
+#: html/catalog/mobile/product.html:71
+msgid "условия"
+msgstr "умови"
+
+#: html/catalog/mobile/product.html:99
+msgid "С этим товаром покупают"
+msgstr "З цим товаром покупають"
+
+#: html/catalog/mobile/product.html:147
+msgid "описание"
+msgstr "опис"
+
+#: html/catalog/mobile/products.html:26 html/catalog/mobile/search.html:27
+msgid "Фильтр"
+msgstr "Фільтр"
+
+#: html/catalog/mobile/products.html:38 html/catalog/mobile/search.html:39
+msgid "до"
+msgstr "до"
+
+#: html/catalog/mobile/products.html:46 html/catalog/mobile/search.html:47
+msgid "ПАРАМЕТРЫ"
+msgstr "ПАРАМЕТРИ"
+
+#: html/catalog/mobile/products.html:50 html/catalog/mobile/search.html:51
+msgid "Выберите"
+msgstr "Виберіть"
+
+#: html/catalog/mobile/products.html:78 html/catalog/mobile/search.html:79
+msgid "КАТЕГОРИИ"
+msgstr "КАТЕГОРІЇ"
+
+#: html/catalog/mobile/products.html:105 html/catalog/mobile/search.html:106
+msgid "по наличию"
+msgstr "за наявністю"
+
+#: html/catalog/mobile/products.html:180 html/catalog/mobile/search.html:181
+msgid "Здесь товаров нет"
+msgstr "Тут товарів нема"
+
+#: html/checkout/desktop/callback.html:6
+#: html/checkout/desktop/quick_order.html:5
+msgid "Простой заказ в один клик"
+msgstr "Простий заказ в один клік"
+
+#: html/checkout/desktop/callback.html:8
+#: html/checkout/desktop/quick_order.html:7
+msgid "Введите имя и номер телефона."
+msgstr "Введіть ім'я та номер телефону."
+
+#: html/checkout/desktop/callback.html:10
+#: html/checkout/desktop/quick_order.html:9
+msgid "Мы Вам перезвоним для оформления заказа."
+msgstr "Ми Вам передзвоним для оформлення замовлення."
+
+#: html/checkout/desktop/callback.html:26
+msgid "Спасибо за обращение! Мы скоро свяжемся с вами"
+msgstr "Дякую за увагу! Ми скоро зв'яжемось з вами"
+
+#: html/checkout/desktop/checkout.html:11
+#: html/checkout/mobile/checkout.html:13
+msgid "Оформление заказа"
+msgstr "Оформлення замовлення"
+
+#: html/checkout/desktop/checkout.html:28
+msgid "Оплата и доставка"
+msgstr "Оплата і доставка"
+
+#: html/checkout/desktop/checkout.html:30 html/checkout/message.html:24
+#: html/checkout/message.txt:6 html/user/desktop/order.html:63
+#: html/user/mobile/order.html:55
+msgid "Способ доставки"
+msgstr "Спосіб доставки"
+
+#: html/checkout/desktop/checkout.html:44 html/checkout/message.html:46
+#: html/checkout/message.txt:8 html/user/desktop/order.html:85
+#: html/user/mobile/order.html:77
+msgid "Способ оплаты"
+msgstr "Спосіб оплати"
+
+#: html/checkout/desktop/checkout.html:47 html/user/desktop/order.html:89
+#: html/user/mobile/order.html:81
+msgid "Внимание! Доставка возможна только с оплатой Приват24"
+msgstr "Увага! Доставка можлива лише з оплатою Приват24"
+
+#: html/checkout/desktop/checkout.html:51
+msgid "Контактная информация"
+msgstr "Контактна інформація"
+
+#: html/checkout/desktop/checkout.html:64
+msgid "Комментарий"
+msgstr "Коментар"
+
+#: html/checkout/desktop/checkout.html:75
+#: html/checkout/mobile/checkout.html:75 html/user/mobile/order.html:84
+msgid "Содержимое заказа"
+msgstr "Вміст замовлення"
+
+#: html/checkout/desktop/checkout.html:101
+msgid "Оформить заказ"
+msgstr "Оформіть замовлення"
+
+#: html/checkout/desktop/checkout.html:103
+msgid "Учтена скидка"
+msgstr "Врахована скідка"
+
+#: html/checkout/desktop/checkout.html:105
+#: html/checkout/mobile/checkout.html:73
+msgid "Итого"
+msgstr "Ітого"
+
+#: html/checkout/desktop/checkout.html:107
+#: html/checkout/mobile/checkout.html:74
+msgid "Стоимость доставки не включена"
+msgstr "Вартість доставки не включіна"
+
+#: html/checkout/desktop/checkout.html:109
+#: html/checkout/mobile/checkout.html:74
+msgid "и оплачивается при получении"
+msgstr "і сплачуйте після отримання"
+
+#: html/checkout/message.html:7
+msgid "Информация по заказу"
+msgstr "Інформація за замовленням"
+
+#: html/checkout/message.html:12 html/checkout/message.txt:3
+msgid "Ваш заказ"
+msgstr "Ваше замовлення"
+
+#: html/checkout/message.html:12
+msgid "Статус заказа"
+msgstr "Статус замовлення"
+
+#: html/checkout/message.html:16 html/checkout/message.txt:4
+#: html/user/desktop/order.html:55 html/user/mobile/order.html:47
+msgid "Номер телефона"
+msgstr "Номер телефону"
+
+#: html/checkout/message.html:20
+msgid "На имя"
+msgstr "На ім'я"
+
+#: html/checkout/message.html:29 html/checkout/message.txt:7
+msgid "Адрес доставки"
+msgstr "Адресса доставки"
+
+#: html/checkout/message.html:35
+msgid "Город"
+msgstr "Місто"
+
+#: html/checkout/message.html:41
+msgid "Отделение"
+msgstr "Відділення"
+
+#: html/checkout/message.html:50 html/checkout/message.txt:9
+#: html/user/desktop/order.html:92
+msgid "Содержание заказа"
+msgstr "Вміст замовлення"
+
+#: html/checkout/message.html:70 html/user/desktop/order.html:105
+msgid "Итого к оплате"
+msgstr "Ітого до сплати"
+
+#: html/checkout/message.html:72 html/checkout/message.txt:15
+msgid "Если у Вас есть какие-либо вопросы, пишите нам или звоните по номерам"
+msgstr "Якщо у Вас є які-небудь питання, пишіть нам або дзвоніть за номерами"
+
+#: html/checkout/message.txt:3
+msgid "Спасибо что выбрали наш магазин"
+msgstr "Дякуєм що обрали наш магазин"
+
+#: html/checkout/message.txt:5
+msgid "Имя клиента"
+msgstr "Ім'я клієнта"
+
+#: html/checkout/message.txt:14
+msgid "Стоимость заказа"
+msgstr "Вартість замовлення"
+
+#: html/checkout/message.txt:17
+msgid "Ваш пароль к личному кабинету"
+msgstr "Ваш пароль до власного кабінету"
+
+#: html/checkout/mobile/checkout.html:71
+msgid "поля, обязательные для заполнения"
+msgstr "поля, обов'язкові до заповнення"
+
+#: html/checkout/mobile/checkout.html:72
+msgid "Оформить"
+msgstr "Оформіть"
+
+#: html/shop/desktop/404.html:5 html/shop/mobile/404.html:6
+msgid "Страница не существует, либо была удалена"
+msgstr "Страніца не існує, або видалена"
+
+#: html/shop/desktop/404.html:6
+msgid "Все сначала"
+msgstr "Усе с початку"
+
+#: html/shop/desktop/500.html:4 html/shop/mobile/500.html:4
+msgid "Ой, все! Что то пошло не так"
+msgstr "Ой, все! Щось пішло не так"
+
+#: html/shop/desktop/500.html:5
+msgid "Скорее всего мы знаем в чем проблема и уже работаем над ее устранением"
+msgstr "Скоріш за все, ми знаїмо у чому проблема та вже працюємо"
+
+#: html/shop/desktop/500.html:6
+msgid ""
+"Но если вы видите это уже не первый час, сообщите нам об этом по телефону, и "
+"Мы постараемся Вам помочь"
+msgstr "Але якщо ви бачите це не перший час, подзвоніть нам"
+
+#: html/shop/desktop/500.html:7
+msgid "В начало"
+msgstr "В початок"
+
+#: html/shop/desktop/categories.html:3
+msgid "Каталог товаров"
+msgstr "Каталог товарів"
+
+#: html/shop/desktop/footer.html:11 html/shop/mobile/index.html:119
+msgid "Компания"
+msgstr "Компанія"
+
+#: html/shop/desktop/footer.html:21 html/shop/mobile/index.html:126
+msgid "Другие города"
+msgstr "Інші міста"
+
+#: html/shop/desktop/footer.html:40
+msgid "Контакты"
+msgstr "Контакти"
+
+#: html/shop/desktop/footer.html:40
+msgid "Смотреть на карте"
+msgstr "Дивитись на мапі"
+
+#: html/shop/desktop/footer.html:57 html/shop/mobile/index.html:144
+msgid "Украина"
+msgstr "Україна"
+
+#: html/shop/desktop/footer.html:65
+msgid "Политика конфиденциальности"
+msgstr "Політика конфіденсійності"
+
+#: html/shop/desktop/guestbook.html:14 html/shop/mobile/guestbook.html:14
+msgid "Заголовок"
+msgstr "Заголовок"
+
+#: html/shop/desktop/guestbook.html:14 html/shop/mobile/guestbook.html:14
+msgid "Это поле обязательно. Минимум 5 символов"
+msgstr "Це поле обов'язкове. Мінімум 5 символів"
+
+#: html/shop/desktop/guestbook.html:15 html/shop/mobile/guestbook.html:15
+msgid "Описание"
+msgstr "Опис"
+
+#: html/shop/desktop/guestbook.html:15 html/shop/mobile/guestbook.html:15
+msgid "Это поле обязательно. Минимум 20 символов"
+msgstr "Це поле обов'язкове. Мінімум 20 символів"
+
+#: html/shop/desktop/guestbook.html:17 html/shop/mobile/guestbook.html:17
+msgid "Оставить отзыв"
+msgstr "Залишить відгук"
+
+#: html/shop/desktop/guestbook.html:20 html/shop/mobile/guestbook.html:20
+msgid "Войдите"
+msgstr "Увійти"
+
+#: html/shop/desktop/guestbook.html:20 html/shop/mobile/guestbook.html:20
+#: html/user/desktop/signin.html:20 html/user/desktop/signup.html:10
+#: html/user/mobile/signin.html:19 html/user/mobile/signup.html:34
+msgid "или"
+msgstr "або"
+
+#: html/shop/desktop/guestbook.html:21 html/shop/mobile/guestbook.html:21
+msgid "зарегистрируйтесь"
+msgstr "зареєструйтесь"
+
+#: html/shop/desktop/guestbook.html:22 html/shop/mobile/guestbook.html:22
+msgid "чтобы оставить отзыв"
+msgstr "щоб залишити відгук"
+
+#: html/shop/desktop/guestbook.html:30 html/shop/desktop/guestbook.html:37
+#: html/shop/mobile/guestbook.html:31 html/shop/mobile/guestbook.html:38
+msgid "Ответить"
+msgstr "Відповісти"
+
+#: html/shop/desktop/header.html:6
+msgid "Игрушки от"
+msgstr "Іграшки від"
+
+#: html/shop/desktop/header.html:23 html/shop/mobile/nav.html:7
+msgid "Поиск"
+msgstr "Пошук"
+
+#: html/shop/desktop/header.html:45
+msgid "Корзина"
+msgstr "Кошик"
+
+#: html/shop/desktop/header.html:49
+msgid "Избранные"
+msgstr "Вибрані"
+
+#: html/shop/desktop/header.html:54
+msgid "Сравнение"
+msgstr "Порівняння"
+
+#: html/shop/desktop/header.html:60 html/user/desktop/signin.html:17
+#: html/user/mobile/signin.html:18
+msgid "Войти"
+msgstr "Увійти"
+
+#: html/shop/desktop/header.html:65
+msgid "История заказов"
+msgstr "Історія замовлень"
+
+#: html/shop/desktop/header.html:69
+msgid "Выйти"
+msgstr "Вийти"
+
+#: html/shop/desktop/home.html:5 html/shop/mobile/home.html:5
+msgid "Лидеры продаж"
+msgstr "Лідери продажу"
+
+#: html/shop/desktop/home.html:51 html/shop/mobile/home.html:37
+msgid "Суперцена"
+msgstr "Суперціна"
+
+#: html/shop/desktop/index.html:32
+msgid "Вы добавили"
+msgstr "Ви додали"
+
+#: html/shop/desktop/nav.html:25 html/shop/desktop/nav.html:48
+msgid "Назад"
+msgstr ""
+
+#: html/shop/desktop/page.html:18
+msgid "быстрый"
+msgstr "швидкий"
+
+#: html/shop/desktop/page.html:18
+msgid "просмотр"
+msgstr "перегляд"
+
+#: html/shop/mobile/index.html:71
+msgid "Доставка"
+msgstr "Доставка"
+
+#: html/shop/mobile/index.html:75
+msgid "Самовывоз из магазина"
+msgstr "Самовивіз з магазину"
+
+#: html/shop/mobile/index.html:76
+msgid "бесплатно"
+msgstr "безкоштовно"
+
+#: html/shop/mobile/index.html:79
+msgid "Доставка курьером"
+msgstr "Доставка кур'єром"
+
+#: html/shop/mobile/index.html:83
+msgid "Доставка Новой Почтой"
+msgstr "Доставка Новою Поштою"
+
+#: html/shop/mobile/index.html:87
+msgid "Доставка Деливери и Украпочтой"
+msgstr "Доставка Делівері чі Укрпоштою"
+
+#: html/shop/mobile/index.html:95
+msgid "Оплата"
+msgstr "Сплата"
+
+#: html/shop/mobile/index.html:99
+msgid "Наличными при получении заказа (только Новой Почтой)"
+msgstr "Налічними при отриманні замовлення (тільки Новою Поштою)"
+
+#: html/shop/mobile/index.html:102
+msgid "Оплата платежной картой на расчетный счет"
+msgstr "Оплата платіжною карткою на розрахунковий рахунок"
+
+#: html/shop/mobile/index.html:109
+msgid "Обмен"
+msgstr "Обмін"
+
+#: html/shop/mobile/index.html:171 html/user/desktop/order.html:16
+#: html/user/desktop/profile.html:12 html/user/mobile/order.html:9
+#: html/user/mobile/profile.html:14
+msgid "Заказы"
+msgstr "Замовлення"
+
+#: html/shop/mobile/index.html:172
+msgid "ВЫХОД"
+msgstr "ВИХІД"
+
+#: html/shop/mobile/index.html:177
+msgid "ВХОД"
+msgstr "ВХІД"
+
+#: html/shop/mobile/nav.html:16
+msgid "Язык"
+msgstr "Мова"
+
+#: html/shop/mobile/nav.html:26
+msgid "Общее"
+msgstr "Загальне"
+
+#: html/user/desktop/change-password.html:6
+#: html/user/mobile/change-password.html:6
+msgid "Профиль"
+msgstr "Профіль"
+
+#: html/user/desktop/change-password.html:7
+#: html/user/mobile/change-password.html:7
+msgid "Смена пароля"
+msgstr "Зміна паролю"
+
+#: html/user/desktop/change-password.html:19 html/user/desktop/order.html:90
+#: html/user/mobile/change-password.html:19 html/user/mobile/order.html:82
+msgid "Изменить"
+msgstr "Змінить"
+
+#: html/user/desktop/change-password.html:41 html/user/mobile/signin.html:54
+msgid "Введите пароль."
+msgstr "Введіть пароль."
+
+#: html/user/desktop/change-password.html:42
+#: html/user/desktop/change-password.html:47 html/user/mobile/signin.html:55
+msgid "Длина пароля минимум 6 символа."
+msgstr "Довжина паролю мінімум 6 символів."
+
+#: html/user/desktop/change-password.html:43
+#: html/user/desktop/change-password.html:48 html/user/mobile/signin.html:51
+msgid "Максимальная длина 16 символов."
+msgstr "Максімальна довжина 16 символів."
+
+#: html/user/desktop/change-password.html:46
+msgid "Введите пароль еще раз."
+msgstr "Введіть пароль ще раз."
+
+#: html/user/desktop/order.html:41 html/user/mobile/order.html:33
+msgid "Имя"
+msgstr "Ім'я"
+
+#: html/user/desktop/order.html:46 html/user/mobile/order.html:38
+msgid "Фамилия"
+msgstr "Фамілія"
+
+#: html/user/desktop/order.html:50 html/user/mobile/order.html:42
+msgid "Отчество"
+msgstr ""
+
+#: html/user/desktop/order.html:59 html/user/mobile/order.html:51
+msgid "Адрес почты"
+msgstr "Адресса пошти"
+
+#: html/user/desktop/order.html:67 html/user/mobile/order.html:59
+msgid "Адрес"
+msgstr "Адресса"
+
+#: html/user/desktop/order.html:73 html/user/mobile/order.html:65
+msgid "Город доставки"
+msgstr "Місто доставка"
+
+#: html/user/desktop/order.html:79 html/user/mobile/order.html:71
+msgid "Отделение доставки"
+msgstr "Відділення доставки"
+
+#: html/user/desktop/profile.html:15
+msgid "Изменить пароль входа"
+msgstr "Змінить пароль входу"
+
+#: html/user/desktop/profile.html:18 html/user/mobile/order.html:28
+#: html/user/mobile/profile.html:19
+msgid "Заказ"
+msgstr "Заказ"
+
+#: html/user/desktop/profile.html:19 html/user/mobile/profile.html:21
+msgid "Статус"
+msgstr "Статус"
+
+#: html/user/desktop/profile.html:19 html/user/mobile/profile.html:25
+msgid "Кол-во товаров"
+msgstr "Кількість товарів"
+
+#: html/user/desktop/profile.html:22 html/user/mobile/order.html:124
+#: html/user/mobile/profile.html:35
+msgid "Нет доступной информации"
+msgstr "Нема доступної інформації"
+
+#: html/user/desktop/signin.html:7 html/user/mobile/signin.html:8
+msgid "Вход"
+msgstr "Вхід"
+
+#: html/user/desktop/signin.html:16 html/user/mobile/signin.html:17
+msgid "ой,пароль? напомнить"
+msgstr "ой,пароль? напомнить"
+
+#: html/user/desktop/signin.html:18 html/user/mobile/signin.html:24
+msgid "зарегистрироваться"
+msgstr "зареєструватись"
+
+#: html/user/desktop/signin.html:33 html/user/forget_password.html:9
+#: html/user/mobile/signin.html:33
+msgid "Напомнить"
+msgstr "Нагадать"
+
+#: html/user/desktop/signup.html:41 html/user/mobile/signup.html:32
+msgid "Поехали"
+msgstr "Поїхали"
+
+#: html/user/forget_password.html:21
+msgid "Запрос успешно отправлен. Проверьте почтовый ящик."
+msgstr "Запит успішно відправлен. Перевірте поштову скриньку."
+
+#: html/user/mobile/change-password.html:39
+msgid "Введите пароль"
+msgstr "Введіть пароль"
+
+#: html/user/mobile/change-password.html:40
+#: html/user/mobile/change-password.html:45
+msgid "Длина пароля минимум 6 символа"
+msgstr "Довжина паролю мінімум 6 символів"
+
+#: html/user/mobile/change-password.html:41
+#: html/user/mobile/change-password.html:46 html/user/mobile/signin.html:56
+msgid "Максимальная длина 16 символов"
+msgstr "Максимальна довжина 16 символів"
+
+#: html/user/mobile/change-password.html:44
+msgid "Введите пароль еще раз"
+msgstr "Введіть пароль ще раз"
+
+#: html/user/mobile/order.html:99
+msgid ""
+"Важно! Желательно осуществляйте предоплату после согласования деталей "
+"заказа(цвет, разновидность товара)"
+msgstr ""
+"Важливо! Бажаной здіснюйте передплату після узгодження деталей "
+"замовлення(колір, разновидність товару)"
+
+#: html/user/mobile/order.html:125
+msgid "Попробуйте найти заказ"
+msgstr "Спробуйте знайти замовлення"
+
+#: html/user/mobile/order.html:125
+msgid "ЗДЕСЬ"
+msgstr "ТУТ"
+
+#: html/user/mobile/signin.html:50
+msgid "Введите номер телефона."
+msgstr "Введіть номер телефону."
+
+#: html/user/verify.html:6
+msgid "Восстановление пароля"
+msgstr "Восстановлення паролю"
+
+#: html/user/verify.html:11 html/user/verify.txt:2
+msgid "Вы отправляли запрос на восстановление пароля от кабинета"
+msgstr "Ви відправляли запит на востановлення паролю від кабінету"
+
+#: html/user/verify.html:13 html/user/verify.txt:4
+msgid "Если Да, то перейдите по ссылке"
+msgstr "Якщо Так, то перейдіть за посиланням"
+
+#: html/user/verify.html:16 html/user/verify.txt:7
+msgid "Если Вы не отправляли запрос, просто проигнорируйте это сообщение"
+msgstr "Якщо Ви не відправляли запит, просто ігноруйте це повідомлення"

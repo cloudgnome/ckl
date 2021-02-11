@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Администратор FlatEric</title>
+    <link rel="stylesheet" href="/static/min{{CSS_BUILD}}.css">
+    <link rel="stylesheet" href="/static/redactor/redactor.css">
+    <link rel="icon" type="image/png" href="/static/image/favicon.png" />
+    {%include 'main/sprite.svg'%}
+</head>
+<body>
+{%block body%}
+    <!-- <header>
+        <span class="welcome">
+            <span></span>
+            <a id="signout" href="/user/signout">Выход</a>
+        </span>
+    </header> -->
+    <div id="content">
+        <div id="left">
+            <div id="menu-mini">
+                <div class="burger">
+                    <i class="fas fa-hamburger"></i>
+                </div>
+                <!-- <div id="home-icon" class="icon">
+                    <a href="/" class="load" model="Home">
+                        <i class="fas fa-home"></i>
+                    </a>
+                </div> -->
+                {%include 'main/menu-mini.html'%}
+            </div>
+            {%include 'main/menu.html'%}
+            <div class="change-database">
+                <div class="custom-select">
+                    <select name="database">
+                        <option value="" disabled="">Сайт</option>
+                        {%for site in sites%}
+                            <option {%if site.database == request.session.database%}selected {%endif%}value="{{site.database}}" url="{{site.url}}">
+                                {{site.name}}
+                            </option>
+                        {%endfor%}
+                    </select>
+                </div>
+            </div>
+            <!-- <div class="change-database logo">
+                <div id="active">
+                    <svg><use xlink:href="#logo-{{request.session.database}}"></use></svg>
+                </div>
+                <div id="sites">
+                    {%for site in sites%}
+                        <div class="database" database="{{site.database}}" url="{{site.url}}">
+                            <svg><use xlink:href="#logo-{{site.database}}"></use></svg>
+                        </div>
+                    {%endfor%}
+                </div>
+            </div> -->
+        </div>
+        <main id="right">
+        {%block main%}
+        {%endblock%}
+        </main>
+    </div>
+{%endblock%}
+<div id="bigPhoto"><img src=""></div>
+<div id="bg"></div>
+<script>model="{{model}}";BASE_URL = "{{BASE_URL}}";</script>
+<script src="/static/min{{JS_BUILD}}.js"></script>
+<script src="/static/redactor/redactor.js"></script>
+<script>
+    var router = new Router(); 
+    var view = eval('view = new {{view}}({{item.pk}})');
+
+    var menu;
+    document.ready(function(){
+        var menuParams = {
+            container: $('#menu'),
+            titleText: '#menu-title-text',
+            prev: '#prev',
+            delay: 0,
+            toggleButton: $('#toggleMenu'),
+            left: 0,
+            choice:function(event){
+                if(event.target.tagName == 'SPAN'){
+                    event.target.parent().click();
+                    return;
+                }
+                location.href = event.target.get('href');
+                $('#search-text').set('model',event.target.get('model'));
+                event.stopPropagation();
+                event.preventDefault();
+                return false;
+            }
+        };
+        menu = new Menu(menuParams);
+    });
+</script>
+{%block JS%}
+{%endblock%}
+</body>
+</html>

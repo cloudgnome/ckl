@@ -1,0 +1,38 @@
+{%extends 'shop/mobile/index.html'%}
+{%load i18n%}
+{%block breadcrumbs%}
+<div class="bread-crumbs">
+	<span itemscope itemtype="http://schema.org/ListItem">
+		<a href="{{language}}/">
+			<div></div>
+			<span itemprop="name">{% trans 'Главная'%}</span>
+		</a>
+	</span>
+</div>
+{%endblock%}
+{%block main%}
+<h1>{% trans 'Заказы'%}</h1>
+<div id="orders">
+	{%if orders%}
+		{%for order in orders%}
+		<div class="order">
+			<a href="{{language}}/user/order/{{order.id}}">{% trans 'Заказ'%} №{{order.id}}</a>
+			<div class="status property">
+				<span class="title Bold">{% trans 'Статус'%}:</span> 
+				<span class="value">{{order.get_status_display}}</span>
+			</div>
+			<div class="qty property">
+				<span class="title Bold">{% trans 'Кол-во товаров'%}:</span> 
+				<span class="value">{{order.cart.items_qty}}</span>
+			</div>
+			<div class="total property">
+				<span class="title Bold">{% trans 'Общая сумма'%}:</span> 
+				<div class="value">{{order.cart.total}}грн.</div>
+			</div>
+		</div>
+		{%endfor%}
+	{%else%}
+	{% trans 'Нет доступной информации'%}.
+	{%endif%}
+</div>
+{%endblock%}

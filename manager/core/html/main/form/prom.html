@@ -1,0 +1,13 @@
+<div class="autocomplete">
+	<input id="prom" name="prom" value="" type="text" placeholder="prom" autocomplete="off">
+</div>
+<div id="promList" class="prom results_on_deck">
+	{%for item in proms%}
+		<div>
+			<span class="ui-icon ui-icon-trash" item-id="{{item.id}}">X</span>
+			<span>{{item.prom.prom_id}}</span>
+			<span>{{item}}</span>
+			<input type="hidden" name="proms[]" value="{{item.prom.prom_id}}|{{item}}">
+		</div>
+	{%endfor%}
+</div>

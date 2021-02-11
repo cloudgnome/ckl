@@ -1,0 +1,41 @@
+<div id="cart-icon" class="icon">
+    <a href="/add/order" class="load" view="Order">
+        <i class="fas fa-cart-plus"></i>
+    </a>
+</div>
+<div id="cart-icon" class="icon">
+    <a href="/order/list" class="load" view="ListOrder" model="Order">
+        <i class="fas fa-shopping-cart"></i>
+    </a>
+</div>
+<div id="products-icon" class="icon">
+    <a href="/product/list" class="load" view="ListProduct" model="Product">
+        <i class="fab fa-product-hunt"></i>
+    </a>
+</div>
+{%if not TIGRES_CATEGORIES%}
+<div class="icon">
+    <a href="/category/list" view="CategoryList" model="Category" class="load">
+        <i class="fa fa-list-alt"></i>
+    </a>
+</div>
+{%endif%}
+<div class="icon">
+    <a href="/page/list" class="load" view="List" model="Page"><i class="fas fa-store-alt"></i></a>
+</div>
+<div class="icon">
+    <a href="/User/list" class="load" view="List" model="User">
+        <i class="fas fa-users"></i>
+    </a>
+</div>
+<div id="settings-icon" class="icon">
+    <a href="/" class="load" view="Home" model="Home">
+        <i class="fas fa-tools"></i>
+    </a>
+</div>
+<div id="logo-miracles">
+    <a href="http://miracles.digital" target="_blank">
+        <!-- <i class="fab fa-python"></i> -->
+        <svg><use xlink:href="#vanilla"></use></svg>
+    </a>
+</div>
