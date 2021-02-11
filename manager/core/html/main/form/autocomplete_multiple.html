@@ -1,0 +1,13 @@
+<div class="autocomplete {{model}}" model="{{model}}">
+	<input type="text" autocomplete="off">
+	<input autocomplete="off" type="hidden" name="{{ widget.name }}"{% if widget.values_list != None %} value="{{widget.values_list}}"{% endif %}{% include "django/forms/widgets/attrs.html" %}>
+	<div class="variants"></div>
+	<div class="values">
+		{%for item in widget.value%}
+			<div class="value">
+				<div class="remove" value="{{item.id}}"><i class="fas fa-times"></i></div>
+				{{item}}
+			</div>
+		{%endfor%}
+	</div>
+</div>

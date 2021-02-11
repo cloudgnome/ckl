@@ -1,0 +1,12 @@
+/*critical*/
+aside h3.topic{
+    color: #3e77aa;
+}
+aside #filter-categories-sidebar a.active{
+    color: #3e77aa;
+    font-family: Bold,serif;
+}
+aside h3.topic:hover{
+    color: #173c5e;
+}
+/*endcritical*/

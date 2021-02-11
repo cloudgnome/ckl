@@ -1,0 +1,55 @@
+.mm-navbar{
+    background: #4684bc;
+    border-color: rgba(0,0,0,.1);
+    color: rgba(0,0,0,.3);
+    border-color: var(--mm-color-border);
+    color: var(--mm-color-text-dimmed);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    text-align: center;
+    height: 44px;
+    height: var(--mm-navbar-size);
+    padding: 0 44px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    -webkit-transition: opacity .4s ease;
+    -o-transition: opacity .4s ease;
+    transition: opacity .4s ease;
+    color: #fff;
+}
+#menu .mm-navbar a{
+    color: #fff;
+}
+.mm-panel, .mm-panels{
+    background-color: inherit;
+}
+.mm-menu a, .mm-menu a:active, .mm-menu a:hover, .mm-menu a:link, .mm-menu a:visited{
+    color: #000;
+}
+#menu .mm-menu a:link{
+
+}
+.mm-btn::after, .mm-btn::before{
+    border-color: #000;
+}
+.mm-listitem_divider{
+    background-color: #4684bc;
+}
+#search svg{
+    background-color: #4684bc;
+    fill: #fff;
+}
+#login-button{
+    color: #000;
+}
+#login-button::before{
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+}
+#menu .mm-btn::before{
+    border-color: #fff;
+}

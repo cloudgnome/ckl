@@ -1,0 +1,76 @@
+<form action="javascript: void(0)" method="post" id="filters" class="filters">
+	<!-- <input type="text" name="search" value="" placeholder="Поиск"> -->
+	<div class="select">
+		<i class="fas fa-chevron-down"></i>
+		<select name="is_available" id="is_available">
+			<option value="" selected>Наличие</option>
+			<option value="True">В наличии</option>
+			<option value="False">Нет в наличии</option>
+		</select>
+	</div>
+	<div class="autocomplete brand" id="brand" model="brand">
+		<input type="text" name="brand__description__name__icontains" value="" placeholder="Производитель" autocomplete="off">
+		<div class="variants"></div>
+	</div>
+	<div class="autocomplete category" id="category" model="category">
+		<input type="text" name="category__description__name__icontains" value="" placeholder="Категория" autocomplete="off">
+		<div class="variants"></div>
+	</div>
+	<div class="select">
+		<i class="fas fa-chevron-down"></i>
+		<select name="category__isnull" id="category__isnull">
+			<option value="" selected>Катигория</option>
+			<option value="False">Есть</option>
+			<option value="True">Нету</option>
+		</select>
+	</div>
+	<div class="select">
+		<i class="fas fa-chevron-down"></i>
+		<select name="gallery__isnull" id="gallery__isnull">
+			<option value="" selected>Картина</option>
+			<option value="False">Есть</option>
+			<option value="True">Нету</option>
+		</select>
+	</div>
+	<div class="select">
+		<i class="fas fa-chevron-down"></i>
+		<select name="slug__isnull" id="slug__isnull">
+			<option value="" selected>URL</option>
+			<option value="False">Есть</option>
+			<option value="True">Нету</option>
+		</select>
+	</div>
+	<div class="select">
+		<i class="fas fa-chevron-down"></i>
+		<select name="attributes__isnull" id="attributes__isnull">
+			<option value="" selected>Атрибуты</option>
+			<option value="False">Есть</option>
+			<option value="True">Нету</option>
+		</select>
+	</div>
+	<div class="select">
+		<i class="fas fa-chevron-down"></i>
+		<select name="storage" id="storage">
+			<option value="" selected>Склад</option>
+			<option value="1">Игротека</option>
+			<option value="2">Велис</option>
+			<option value="3">Тигрец</option>
+		</select>
+	</div>
+	<div class="select">
+		<i class="fas fa-chevron-down"></i>
+		<select name="price_fixed" id="price_fixed">
+			<option value="" selected>Фикс. цена</option>
+			<option value="True">Да</option>
+			<option value="False">Нет</option>
+		</select>
+	</div>
+	<div class="select">
+		<i class="fas fa-chevron-down"></i>
+		<select name="description__text__isnull" id="description__text__isnull">
+			<option value="" selected>Описание</option>
+			<option value="False">Есть</option>
+			<option value="True">Нету</option>
+		</select>
+	</div>
+</form>

@@ -1,0 +1,340 @@
+#order{display: block;}
+#order #total,#order #discount{text-align: right;font-size: 19px;margin-right: 15px;float: right;}
+#order .sum{font-weight: bold;}
+#order .order-info{
+	background-color: #fff;
+	height: 38px;
+	border-radius: 5px;
+	line-height: 36px;
+	margin-bottom: 8px;
+	padding-left: 21px;
+}
+#user-info {background-color: #fff;border-radius: 5px;border: 1px solid #F6F7F8;display: block;}
+#user-info .field {
+	height: 42px;
+	padding: 3px 9px;
+	margin: 5px 4px;
+	position: relative;
+}
+#user-info .field .icon{
+	position: absolute;
+	right: 14px;
+	top: 9px;
+	cursor: pointer;
+	color: #aaa;
+	font-size: 22px;
+}
+#user-info .field a.icon{
+	right: 18px;
+}
+#user-info input {
+	height: 100%;
+	width: 100%;
+	padding-left: 5px;
+	font-size: 16px;
+}
+.user {width: 100%;margin-bottom: 10px;}
+
+#order-info select,#order-info input{display: block;width: 100%;margin-top: 13px;font-size: 14px;}
+#order-info textarea {
+	width: 100%;
+	margin-top: 10px;
+	font-size: 16px;
+	padding: 5px 9px;
+	border: 1px solid #ccc;
+}
+#order-info input{height: 34px;padding-left: 7px;font-size: 16px;}
+.field .select::after{
+	top: 19px;
+}
+.field select{
+	height: 50px;
+}
+#order-info {background-color: #fff;padding: 5px 10px 21px;clear: both;border-radius: 5px;}
+
+#lables {width: 36%;float: left;background-color: #F6F7F8;border-radius: 5px 0 0 5px;border: 1px solid #F6F7F8;}
+#order-items {
+	display: grid;
+	grid-row-gap: 7px;
+	margin-bottom: 11px;
+	position: relative;
+}
+#order .item {
+	line-height: 47px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 26px 70px minmax(140px,1fr) 55px 79px 117px 82px 75px;
+	grid-gap: 4px;
+	grid-template-rows: 50px;
+	overflow: hidden;
+}
+#order .item > div {
+	border-radius: 5px;
+	background-color: #fff;
+}
+#order .item > div.image{
+	display: flex;
+	margin: 0;
+}
+#items .item > div.image img{
+	display: block;
+	margin: auto;
+}
+.remove{
+	width: 23px;
+	height: 19px;
+	cursor: pointer;
+	margin-top: 17px;
+	border: none;
+}
+#order .item .name {
+	padding: 0 10px;
+	position: relative;
+}
+#order .item.visible{
+	overflow: visible;
+}
+#order-items .item input {
+	width: 81%;
+	text-align: center;
+	height: 74%;
+	font-size: 15px;
+	border: 1px solid #ddd;
+}
+#add-product {
+	cursor: pointer;
+	padding-left: 4px;
+	padding-top: 2px;
+}
+#add-product i{
+	color: #357d0c;
+	font-size: 21px;
+}
+#sms-panel {
+	border-radius: 0 0 5px 5px;
+	position: relative;
+	height: 57px;
+	padding: 0 10px;
+}
+#sms{
+	background-color: #71C7ED;
+}
+#sms:hover{
+	background-color: #68BEE4;
+}
+#sms-panel .buttons {
+	display: none;
+	position: absolute;
+	top: -193px;
+	background-color: #fff;
+	width: 160px;
+	height: 191px;
+	padding: 10px;
+	left: 0px;
+	border-radius: 5px 5px 0 0;
+}
+#sms-panel .buttons.active{
+	display: block;
+}
+#sms-panel .buttons button {
+	margin-bottom: 7px;
+}
+#sms-panel.active{background-color: #fff;}
+#add-order input {
+	font-size: 17px;
+	padding-left: 5px;
+}
+#qty {
+	text-align: center;
+}
+.variants {
+	position: absolute;
+	background-color: #fff;
+	width: 147%;
+	border-radius: 0 0 5px 5px;
+	z-index: 2;
+	max-height: 300px;
+	overflow-y: auto;
+	box-shadow: 0px 11px 9px #6F6F6F;
+}
+#order .variants{
+	margin-left: -10px;
+}
+.variants div{
+	height: 45px;
+	overflow: hidden;
+	padding: 0 15px;
+	text-align: center;
+	line-height: 45px;
+}
+.variants div.active,.variants div:hover{
+	background-color: #eee;
+}
+#filters .variants{
+	margin-left: 0;
+	width: 262px;
+}
+#order-info #city,#order-info #departament,#order-info .variants{
+	display: none;
+}
+#order-info #city,#order-info #departament{
+	position: relative;
+}
+#order-info #city{
+	z-index: 2;
+}
+#order-info #departament{
+	z-index: 1;
+}
+#order-info .variants{
+	border: 1px solid #ccc;
+	margin-top: -1px;
+	margin-left: 0;
+	overflow-y: scroll;
+	max-height: 215px; 
+}
+#order-info .variants div{
+	line-height: 45px;
+	text-align: center;
+}
+#ttn-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#ttn-form input{
+	font-size: 16px;
+}
+#panel #ttn_link,#panel #ttn_id{
+	margin-top: 20px;
+}
+#panel a{
+	display: block;
+}
+#make-ttn{
+	margin-top: 22px;
+	margin-left: auto;
+}
+#add-seat{
+	cursor: pointer;
+	width: 100%;
+	min-height: 82px;
+	display: flex;
+	align-items: center;
+}
+#add-seat span{
+	padding-left: 5px;
+}
+#order-ttn{
+	display: none;
+	flex-wrap: wrap;
+	position: absolute;
+	background-color: #fff;
+	padding: 1% 2% 1%;
+	width: 95%;
+	top: 2%;
+	left: 2%;
+	z-index: 104;
+	min-height: 100%;
+}
+#order-ttn #seats{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+#order-ttn #seats .seat{
+	width: 100%;
+	display: flex;
+	padding-bottom: 12px;
+}
+#order-ttn #seats .field{
+	width: 12%;
+	margin-right: 17px;
+}
+#order-ttn #seats .field.description{
+	flex: 1;
+}
+#order-ttn.active{
+	display: flex;
+}
+#order-ttn > label{
+	width: 23%;
+	margin-right: 14px;
+}
+#order-ttn .seat .select,#order-ttn .seat select{
+	height: 50px;
+}
+@media print {
+	menu,header,#panel,.item .remove-wrap,#add-product{
+		display: none !important;
+	}
+	.container{
+		padding: 0;
+	}
+	main{
+		width: 100%;padding: 0px 10px 0px 5px;
+	}
+	main.full{
+		width: 100%;
+	}
+	main .right{
+		float: none;padding: 0;margin-top: 10px;width: 100%;
+	}
+	main .left{
+		float: none;width: 100%;
+	}
+	#order-items{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		break-inside: avoid;
+	}
+	#order-items .item{
+		display: flex;
+		line-height: normal;
+		margin-bottom: 10px;
+		border-bottom: 1px solid black;
+		height: 70px;
+		line-height: 28px;
+		width: 100%;
+		flex-shrink: 0;
+		break-before: avoid;
+		break-inside: avoid;
+	}
+	#order-items .item .storage,#order-items .item .total,#order-items .store{
+		display: none;
+	}
+	#order-items .image{
+		width: 10%;
+		flex-shrink: 0;
+		padding: 0;
+		margin: 0;
+	}
+	#order-items .item .name{
+		width: 57%;
+		overflow: hidden;
+	}
+	#order-items .item > div{
+		padding: 15px 10px;
+		border: none;
+		width: 10%;
+		flex-shrink: 0;
+	}
+	#order-items .item input{
+		height: 100%;
+	}
+	#order-items .item .total{
+		min-width: 105px;
+	}
+	#order-items .remove-wrap{
+		display: none;
+	}
+	#order-items a{
+		text-decoration: none;
+	}
+	#edit-panel-wrapper{
+		display: none;
+	}
+	#left{
+		display: none;
+	}
+}

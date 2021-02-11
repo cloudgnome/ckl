@@ -1,0 +1,52 @@
+{% load i18n %}
+{% load translate %}
+<nav id="menu">
+	<span>
+		<a href='/' id="main-page-link">
+			<i class="fas fa-home"></i>
+			{% trans 'На главную'%}
+		</a>
+	</span>
+	<span class="categories-button">
+		<i class="fas fa-th-list"></i>{% trans 'Категории товаров'%}
+	</span>
+	<div class="sub">
+		<a class="categories-button">{% trans 'Показать все' %}</a>
+	</div>
+	<span>
+		<i class="fas fa-user"></i>
+		{% trans 'Пользователь'%}
+	</span>
+	<div class="sub">
+		{%if not user.is_anonymous%}
+			<span>{{request.user.full_name}}</span>
+			{%if request.user.is_admin%}
+				<a href="{{ADMIN_BASE_URL}}/order/list">{% trans 'Заказы'%}</a>
+			{%else%}
+				<a href="{{language}}/user/profile/">{% trans 'Заказы'%}</a>
+			{%endif%}
+			<a id="logout" href="{{language}}/user/signout/">{% trans 'ВЫХОД'%}</a>
+		{%else%}
+			<a id="login-button">
+				{% trans 'ВХОД'%}
+			</a>
+		{%endif%}
+	</div>
+	<div class="Divider"></div>
+	<div>
+		<span><i class="fas fa-language"></i>{% trans 'Язык'%}</span>
+		{%for language in languages%}
+			<a class="lang {%if lang == language.code%}active{%endif%}" href="{{language.path|default_if_none:''}}{{url|default_if_none:''}}" title="{{language.path|default_if_none:''}}{{url|default_if_none:''}}">{{language.name}} <img src="{{language.image_url}}" alt=""></a>
+		{%endfor%}
+	</div>
+	<div class="Divider"></div>
+	<span>
+		<i class="fas fa-store"></i>
+		{% trans 'Общее'%}
+	</span>
+	{%for item in footer_menu%}
+		<a href="{{language}}/{{item.slug}}">
+			{% translate item 'names' lang%}
+		</a>
+	{%endfor%}
+</nav>

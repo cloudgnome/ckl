@@ -1,0 +1,45 @@
+/*critical*/
+#menu{
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+    padding-top: 56px;
+    overflow: hidden;
+    background-color: #2892be;
+    color: #fff;
+    position: fixed;
+    overflow-y: scroll;
+    height: 100%;
+    padding-bottom: 74px;
+    width: 85%;
+    left: -100%;
+}
+/*endcritical*/
+#menu.active{
+    padding-top: 56px;
+    left: 0;
+}
+#menu span {
+    padding: 7px 17px;
+    display: block;
+    font-family: Light;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-top: 1px solid #227da2;
+    background-color: #268bb4;
+}
+#menu span i {
+    font-size: 23px;
+    margin-right: 9px;
+}
+#menu a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 26px;
+    font-family: Light;
+    border-top: 1px solid #227da2;
+    font-size: 16px;
+    height: auto;
+}
+#menu a#main-page-link{
+    padding: 12px 0;
+}

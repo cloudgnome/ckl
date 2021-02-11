@@ -1,0 +1,17 @@
+{%extends 'shop/desktop/header.html'%}
+{% load i18n %}
+{% load translate %}
+{%block header_phones%}
+    <i class="fa fa-mobile"></i>
+    <div class="phones">
+        {%for phone in PHONES%}
+            <div>
+                <a href="tel:{{phone}}">{{phone}}</a>
+            </div>
+            {%if forloop.counter == 2%}
+                </div>
+                <div class="phones">
+            {%endif%}
+        {%endfor%}
+    </div>
+{%endblock%}

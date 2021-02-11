@@ -1,0 +1,14 @@
+<div id="images">
+	<div id="plus" class="circle-plus not">
+		<div class="circle not">
+			<div class="horizontal not"></div>
+			<div class="vertical not"></div>
+		</div>
+	</div>
+	{%for image in gallery%}
+		<div class="image">
+			<div class="remove" item-id="{{image.id}}" model="gallery"><i class="fas fa-times"></i></div>
+			<img src="{{image.admin_thumb}}" original="{{image.url}}">
+		</div>
+	{%endfor%}
+</div>

@@ -1,0 +1,21 @@
+header .phones{
+    position: absolute;
+    z-index: 2;
+    top: 59px;
+    left: 0;
+    width: 100%;
+    padding: 23px 0;
+    background: #4684bc;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+}
+#searchButton{
+    background: #fff;
+    border-left: 1px solid #fff;
+    width: 16%;
+    display: flex;
+}
+#searchButton i{
+    color: #000;
+}

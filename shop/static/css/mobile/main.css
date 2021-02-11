@@ -1,0 +1,136 @@
+/*critical*/
+header{
+    box-shadow: 0px -4px 8px #000;
+    background: #c4dfec;
+    text-align: center;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    display: flex;
+}
+#menu-button{
+    background: #fff;
+    position: relative;
+    padding-left: 23px;
+}
+.burger > div{
+    background: #000;
+}
+#phonesButton{
+    background: #fff;
+    border-left: unset;
+    padding-top: 20px;
+}
+svg{
+    fill: #000;
+}
+#logo{
+    background-color: #fff;
+    border-left: unset;
+    border-right: unset;
+    height: 58px;
+    position: relative;
+    width: 41%;
+    padding: 10px;
+}
+#cart-button{
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    width: 25%;
+    padding-top: 21px;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+    text-align: center;
+}
+.buy{
+    width: 138px;
+    height: 44px;
+    margin-top: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+    padding: 0 13px 0 37px;
+    position: relative;
+    background-color: #4684bc;
+}
+a.buy{
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 41px;
+    padding: 0;
+    text-align: center;
+}
+.blue{
+    background-color: #3e77aa !important;
+}
+.blue:hover{
+    background-color: #173c5e !important;
+}
+/*endcritical*/
+#home h2 a{
+    color: #000;
+}
+#home h2{
+    text-transform: unset;
+}
+aside .info-block h3{
+    background-color: #4684bc;
+    color: #fff;
+}
+aside .info-block{
+    margin-bottom: 10px;
+    border-top: 9px solid #0081c4;
+    border-bottom: 9px solid #ccc;
+    background: #eee;
+    color: #000;
+}
+aside .info-block li span{
+    color: #000;
+}
+aside .info-block svg {
+    fill: #4684bc;
+}
+footer{
+    background: #3d3d3d;
+    color: #fff;
+    padding-bottom: 58px;
+}
+footer svg {
+    fill: #4684bc;
+}
+.topic.featured{
+    color: #4684bc;
+    text-decoration: none;
+    transition: color .5s ease;
+}
+#product .tab{
+    border-bottom: 2px solid #4684bc;
+}
+#product .tabs label{
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    width: 50%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease;
+    background-color: #4684bc;
+    color: #fff;
+}
+.user button{
+    height: 50px;
+    padding: 0 20px;
+    margin: 29px auto 0;
+    background: #4684bc;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+}

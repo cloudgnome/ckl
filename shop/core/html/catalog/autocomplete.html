@@ -1,0 +1,12 @@
+{%load translate%}
+{%for product in products%}
+	<div class="item">
+		<a href="{% translate product 'slugy' lang%}" class="image">
+			<img src="{{product.image.mini_thumb}}" alt="image">
+		</a>
+		<div>
+			<a href="{% translate product 'slugy' lang%}" class="name">{% translate product 'names' lang%}</a>
+			<div class="price left">{{product.price}} грн.</div>
+		</div>
+	</div>
+{%endfor%}

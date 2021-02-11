@@ -1,0 +1,80 @@
+{%extends extends%}
+{%load checkbox%}
+{%load translate%}
+{%block main%}
+<div id="item">
+    <h1 class="container">{% translate item 'names' lang %}</h1>
+    <div class="container">ID: {{item.pk}}</div>
+    <div id="item-menu" class="container">
+        <label class="menu noselect" for="description">
+            META
+        </label>
+        {%for fieldset in form.fieldsets%}
+            <label class="menu noselect" for="{{fieldset.name|default_if_none:'main'}}">
+                {%if not fieldset.legend and forloop.counter == 1%}
+                    Общее
+                {%else%}
+                    {{fieldset.legend}}
+                {%endif%}
+            </label>
+        {%endfor%}
+    </div>
+    <form class="container" action="javascript: return false;" enctype="multipart/form-data">
+        {%csrf_token%}
+            <input name="tab" class="tab" type="radio" id="description" checked="" autocomplete="off">
+            <div class="fieldset meta">
+                <div class="languages">
+                    {%for form in meta%}
+                        <label for="meta_{{form.lang.code}}">
+                            <img src="{{form.lang.image_url}}" alt="">
+                        </label>
+                        <input type="hidden" name="description[]" value="{{form.instance.id|default_if_none:''}}">
+                    {%endfor%}
+                </div>
+                {%for form in meta%}
+                    <input name="meta_tab" class="tab" type="radio" {%if forloop.counter == 1%}checked=""{%endif%} id="meta_{{form.lang.code}}" autocomplete="off">
+                    <div class="fieldset">
+                        <input id="id_{{form.lang.code}}-language" type="hidden" name="{{form.lang.code}}-language" value="{{form.lang.id}}">
+                        {%for fieldset in form.fieldsets%}
+                            {%for field in fieldset%}
+                                <div class="field {{fieldset.classes}}">
+                                    {{field.label_tag}}{%if field.field.required%}<span class="red">*</span>{%endif%}
+                                    {{field}}
+                                </div>
+                            {%endfor%}
+                        {%endfor%}
+                    </div>
+                {%endfor%}
+            </div>
+            {%for fieldset in form.fieldsets%}
+                <input name="tab" class="tab" type="radio" id="{{fieldset.name|default_if_none:'main'}}" autocomplete="off">
+                <div class="fieldset {{fieldset.classes}}">
+                    {%for field in fieldset%}
+                        {%if not fieldset.description%}
+                            <div class="field{%if field|is_checkbox%} checkbox{%endif%}">
+                                {{field.label_tag}}{%if field.field.required%}<span class="red">*</span>{%endif%}
+                                {{field}}
+                            </div>
+                        {%else%}
+                            {{field}}
+                        {%endif%}
+                    {%endfor%}
+                </div>
+            {%endfor%}
+    </form>
+    <div id="edit-panel-wrapper">
+        <div id="edit-panel" class="active">
+            <a class="button" id='browse' href="http://{{SITE_URL}}/{{item.slug}}">Посмотреть</a>
+            <button class="button" id="save" disabled>Сохранить</button>
+            <svg id="delete" fill="#aaa" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0V0z" fill="none"/>
+                <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+        </div>
+    </div>
+</div>
+<script>
+    if(!document.querySelector('menu')) location.reload();
+</script>
+{%endblock%}

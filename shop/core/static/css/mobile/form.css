@@ -1,0 +1,33 @@
+.form label,
+.form input[type='text'],
+.form input[type='password'],
+.form input[type='email'],
+.form input[type='tel']{
+	display: block;
+	width: 96%;
+	font-family: Light;
+	margin: auto;
+	font-size: inherit;
+}
+.form input[type='text'],
+.form input[type='password'],
+.form input[type='email'],
+.form input[type='tel']{
+	height: 55px;
+	padding-left: 20px;
+	border: 1px solid #d7d7d7;
+	margin-top: 9px;
+	border-radius: 4px;
+}
+button{
+	height: 50px;
+	padding: 0 20px;
+	margin-top: 20px;
+	background: #82c9e6;
+	border: none;
+	font-size: 20px;
+	color: #fff;
+	font-family: Light;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
